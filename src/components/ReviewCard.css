@@ -1,0 +1,43 @@
+.review-card {
+    margin-top: -250px;
+}
+
+.review-photo {
+    border-radius: 50%;
+    max-height: 90px;
+    max-width: 110px;
+    
+}
+
+.col-md-4 {
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.review-name {
+    font-size: 22px;
+}
+
+.review-stars {
+    color: rgb(255, 179, 0);
+    font-size: 22px;
+}
+
+.review-text {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+    .review-card {
+        margin-top: -400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .review-card {
+        display: none;
+    }
+}

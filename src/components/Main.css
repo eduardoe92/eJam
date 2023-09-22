@@ -1,0 +1,64 @@
+.ClarifionLogo {
+    max-width: 20%;
+    height: auto;
+    margin-right: 53%;
+    margin-left: 20px;
+}
+
+.McAfee,
+.Norton {
+    max-width: 8%;
+    height: auto;
+    margin-left: 40px;
+    margin-top: -50px;
+}
+
+.textCentral {
+    margin-top: -40px;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .textCentral {
+        margin-top: 1px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        text-align: center;
+    }
+
+    .ClarifionLogo {
+        max-width: 30%;
+        margin-right: 30%;
+    }
+    .McAfee,
+    .Norton {
+        max-width: 10%;
+        flex: 1 1 100%;
+        margin: 10px;
+    } 
+    .textCentral {
+        margin-top: 0;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+}
